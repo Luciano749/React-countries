@@ -1,0 +1,61 @@
+.countriesList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.country {
+  color: black;
+}
+
+.countryContainer {
+  width: 28rem;
+  background-color: white;
+
+  margin: 1rem;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.countryContainer img {
+  width: 25rem;
+
+  border-radius: 0.5rem;
+}
+
+.countryContainer h1 {
+  font-size: 2.2rem;
+  text-align: center;
+
+  margin: 1rem 0;
+}
+
+.informations h3 {
+  font-size: 1.3rem;
+
+  margin: 0.5rem 0;
+}
+
+.informations span {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
